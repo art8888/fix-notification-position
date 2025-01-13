@@ -24,7 +24,7 @@
 }
 
 .fadeOut {
-    animation: 50000000000s fadeOut;
+    animation: 5s fadeOut;
     opacity: 0;
 }
 
