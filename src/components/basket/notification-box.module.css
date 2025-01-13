@@ -8,8 +8,23 @@
     text-align: center;
 }
 
+@media (max-width: 600px) {
+    .notificationBox {
+        position: relative;
+        margin-left: inherit;
+    }
+}
+
+@media (max-width: 480px) {
+    .notificationBox {
+        width: calc(100% - 2rem);
+        max-width: 100%;
+        margin-top: .5em;
+    }
+}
+
 .fadeOut {
-    animation: 5s fadeOut;
+    animation: 50000000000s fadeOut;
     opacity: 0;
 }
 

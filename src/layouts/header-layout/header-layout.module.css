@@ -3,3 +3,21 @@
     display: flex;
     margin-bottom: 4rem;
 }
+
+@media (max-width: 600px) {
+    .subheader > div {
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+        flex-direction: row; /* row-reverse - reverse ordering */
+    }
+}
+
+@media (max-width: 480px) {
+    .subheader > div {
+        display: flex;
+        flex-direction: column; /* components vertically */
+        width: 100%;
+        align-items: flex-start; /* flex-end / center - control where to start align */
+    }
+}

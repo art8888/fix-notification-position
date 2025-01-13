@@ -11,3 +11,10 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+/* another approach */
+.mobile-row          { flex-direction: row; }
+.mobile-row-reverse  { flex-direction: row-reverse; }
+.mobile-align-left   { align-self:   flex-start; }
+.mobile-align-center { align-self:   center; }
+.mobile-align-right  { align-self:   flex-end; }
